@@ -52,7 +52,7 @@ function App() {
         </SubHeading>
       </Heading>
       {/*------- How TO Handel Button With TypeScript */}
-      <Button title='Click Me' onclick={() => console.log("Click Me Button")} />
+      <Button title={"1"} onclick={() => console.log("Click Me Button")} />
       {/*------- How TO Handel Input With TypeScript */}
       <Input value='saad' onchange={(e) => console.log(e.target.value)} />
       {/*------- How TO Handel Styles With TypeScript */}

@@ -3,6 +3,7 @@ type Props = {
     title: string;
     onclick: (e: React.MouseEvent<HTMLButtonElement>,) => void;
 }
+
 // How TO Handel Button IN TypeScript
 function Button(props: Props) {
     return (
